@@ -4,9 +4,9 @@
   import IconUser from "../icon/IconUser.svelte";
 
 </script>
-<section class="grid grid-cols-2 gap-10 mt-20">
+<section id="top" class="grid grid-cols-2 gap-10 mt-20">
   <div>
-    <div class="text-primary text-sm font-semibold mb-4">
+    <div class="text-primary text-sm font-semibold mb-4 tracking-widest">
       CHAT N’ RECHAT
     </div>
     <h1 class="text-4xl mb-6">
@@ -16,11 +16,11 @@
       Sebenernya banyak banget aplikasi chatting yang lebih bagus dari ini, maka dari itu lebih baik pake yang lain aja deh ya daripada pake aplikasi yang ini.
     </p>
     <div class="flex items-center gap-5 mb-14">
-      <a href="#" class="flex items-center justify-center gap-3 bg-primary rounded-lg px-[45px] py-[15px] text-lg font-semibold text-white shadow-xl shadow-primary/25">
+      <a href="#register" class="flex items-center justify-center gap-3 bg-primary rounded-lg px-[45px] py-[15px] text-lg font-semibold text-white shadow-xl shadow-primary/25">
         Register
         <IconArrowRight/>
       </a>
-      <a href="#" class="flex items-center justify-center gap-3 bg-primary rounded-lg px-[45px] py-[15px] text-lg font-semibold text-primary bg-primary/5">
+      <a href="#learn" class="flex items-center justify-center gap-3 bg-primary rounded-lg px-[45px] py-[15px] text-lg font-semibold text-primary bg-primary/5">
         Learn More
       </a>
     </div>
