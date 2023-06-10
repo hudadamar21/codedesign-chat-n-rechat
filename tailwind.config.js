@@ -11,6 +11,11 @@ export default {
         secondary: '#F4F7FF',
         dark: '#0C1B4D',
         cream: '#FFD39F'
+      },
+      fontFamily: {
+        'dm-sans': 'DM Sans, sans-serif',
+        'inter': 'Inter, sans-serif',
+        'source-sans': 'Source Sans 3, sans-serif',
       }
     },
   },
