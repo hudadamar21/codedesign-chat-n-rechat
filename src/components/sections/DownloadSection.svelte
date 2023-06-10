@@ -16,7 +16,7 @@
       </a>
     </div>
   </div>
-  <div class="justify-self-center pb-8 md:pb-0"> 
+  <div class="justify-self-center pb-10 md:pb-0"> 
     <img class="rounded-2xl md:rounded-none" src="/images/download.png" alt="download">
   </div>
 </section>
