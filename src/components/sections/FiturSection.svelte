@@ -23,9 +23,12 @@
   ];
 </script>
 
-<section id="fitur" class="mt-20 md:mt-32 border-b border-dark/5 pb-20 md:pb-32 mb-20 md:mb-32 px-3">
+<section
+  id="fitur"
+  class="mt-20 md:mt-32 border-b border-dark/5 pb-20 md:pb-32 mb-20 md:mb-32 px-5 md:px-0"
+>
   <div class="text-center w-full md:w-1/2 mx-auto">
-    <SectionTitle 
+    <SectionTitle
       badge="NGGAK HARUS SIH SEBENERNYA"
       title="Kenapa Harus Pakai Chat N’ Rechat?"
       description="Sebenernya yang bagus itu sih WhatsApp loh, mending pake WhatsApp aja deh. Yaudah berikut ini
@@ -34,10 +37,12 @@
   </div>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-16 md:mt-32">
     {#each fitur as { image, title, description }, i}
-      <div class="flex flex-col justify-center items-center gap-3 text-center">
+      <div class="flex flex-col justify-between items-center gap-3 text-center">
         <img src={image} alt={title} />
-        <h3 class="text-lg">{title}</h3>
-        <p class="text-dark/60">{description}</p>
+        <div>
+          <h3 class="text-lg">{title}</h3>
+          <p class="text-dark/60">{description}</p>
+        </div>
       </div>
     {/each}
   </div>
