@@ -3,16 +3,16 @@
   import FaqSection from "./components/sections/FaqSection.svelte";
   import FiturSection from "./components/sections/FiturSection.svelte";
   import TeknologiSection from "./components/sections/TeknologiSection.svelte";
-  import TopSection from "./components/sections/TopSection.svelte";
+  import BerandaSection from "./components/sections/BerandaSection.svelte";
   import MainLayout from "./layouts/MainLayout.svelte";
 </script>
 
 <MainLayout>
   <main class="main-container">
-    <TopSection/>
-    <FiturSection/>
-    <TeknologiSection/>
-    <DownloadSection/>
+    <BerandaSection />
+    <FiturSection />
+    <TeknologiSection />
+    <DownloadSection />
   </main>
-  <FaqSection/>
+  <FaqSection />
 </MainLayout>
