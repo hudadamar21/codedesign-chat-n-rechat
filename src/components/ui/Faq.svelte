@@ -27,7 +27,7 @@
     }`}
   >
     <h2 class="text-base md:text-lg text-left font-medium">{faq.question}</h2>
-    <div>
+    <div class="transition-transform duration-300 {isOpen ? 'rotate-180' : ''}">
       <IconArrowDown />
     </div>
   </button>

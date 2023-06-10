@@ -39,7 +39,7 @@
   ];
 </script>
 
-<section class="max-w-screen-md mx-auto">
+<section data-aos="fade-up" class="max-w-screen-md mx-auto">
   <div id="faq" class="text-center w-full md:w-[60%] mx-auto px-5 md:px-0">
     <SectionTitle
       badge="BANYAK YANG NANYA"

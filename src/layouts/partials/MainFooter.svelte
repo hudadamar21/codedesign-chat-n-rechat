@@ -1,4 +1,4 @@
-<footer class="main-container mt-20 md:mt-32">
+<footer data-aos="fade-up" class="main-container mt-20 md:mt-32">
   <div class="bg-primary/5 py-16 px-5 md:p-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 rounded-t-2xl">
     <div class="space-y-4 md:col-span-2">
       <div class="flex items-center gap-3">

@@ -25,6 +25,7 @@
 
 <section
   id="fitur"
+  data-aos="fade-up"
   class="mt-20 md:mt-32 border-b border-dark/5 pb-20 md:pb-32 mb-20 md:mb-32 px-5 md:px-0"
 >
   <div class="text-center w-full md:w-1/2 mx-auto">

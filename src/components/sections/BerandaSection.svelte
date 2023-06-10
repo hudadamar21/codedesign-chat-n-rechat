@@ -5,8 +5,10 @@
 </script>
 
 <section id="beranda" class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-44">
-  <div class="order-2 md:order-1 px-5 md:px-0">
-    <div class="font-inter text-primary text-sm font-semibold mb-4 tracking-widest">CHAT N’ RECHAT</div>
+  <div data-aos="fade-right" class="order-2 md:order-1 px-5 md:px-0">
+    <div class="font-inter text-primary text-sm font-semibold mb-4 tracking-widest">
+      CHAT N’ RECHAT
+    </div>
     <h1 class="text-2xl md:text-3xl lg:text-[34px] mb-6">
       Sebuah aplikasi chatting yang bisa bikin kamu lupa diri, tapi tidak lupa jasa pahlawan!
     </h1>
@@ -46,7 +48,7 @@
       </div>
     </div>
   </div>
-  <div class="order-1 md:order-2 px-5 md:px-0">
+  <div data-aos="fade-left" class="order-1 md:order-2 px-5 md:px-0">
     <img
       class="w-2/3 md:w-full mx-auto h-full scale-[1.15]"
       src="/images/top-image.svg"
@@ -56,6 +58,7 @@
 </section>
 
 <section
+  data-aos="fade-up"
   class="bg-primary/5 w-full md:rounded-2xl py-14 flex flex-col md:flex-row items-center justify-center gap-14 md:gap-10 mt-20 md:mt-32"
 >
   <img src="/images/sponsors/cnn.png" alt="cnn" />
