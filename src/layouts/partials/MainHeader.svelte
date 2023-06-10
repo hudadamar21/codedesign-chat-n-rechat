@@ -1,25 +1,29 @@
 <script>
-  import { fly } from 'svelte/transition';
+  import { fly } from "svelte/transition";
   import { clickOutside } from "../../utils/clickOutside";
   import { onMount } from "svelte";
 
   let menuOpen = false;
   let isTop = true;
   onMount(() => {
-    window.addEventListener('scroll', () => {
-      isTop = window.scrollY < 100
-    })
-  })
+    window.addEventListener("scroll", () => {
+      isTop = window.scrollY < 100;
+    });
+  });
 </script>
 
 <header class=" fixed top-0 left-0 bg-secondary/80 backdrop-blur z-30 w-full">
-  <div class="{`main-container flex items-center justify-between px-5 md:px-0 py-5 transition-[padding] duration-300 ${isTop ? 'md:py-10' : 'md:py-5'}`}">
+  <div
+    use:clickOutside
+    on:click_outside={() => (menuOpen = false)}
+    class={`main-container flex items-center justify-between px-5 md:px-0 py-5 transition-[padding] duration-300 ${
+      isTop ? "md:py-10" : "md:py-5"
+    }`}
+  >
     <img src="/logo.png" alt="logo" />
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <nav
-      use:clickOutside
-      on:click_outside={() => (menuOpen = false)}
-      transition:fly="{{ y: 200, duration: 2000 }}"
+      transition:fly={{ y: 200, duration: 2000 }}
       class={`fixed md:static top-16 right-3 z-20 p-5 md:p-0 w-44 md:w-auto rounded-xl shadow-md shadow-primary/10 md:shadow-none bg-white md:bg-transparent flex flex-col md:flex-row md:space-x-12 space-y-5 md:space-y-0 ${
         menuOpen ? "flex" : "hidden md:flex"
       }`}
@@ -31,7 +35,7 @@
       <a
         href="#download"
         on:click={() => (menuOpen = false)}
-        class="block md:hidden bg-primary text-white text-center rounded-lg px-6 py-2 text-base font-semibold"
+        class="block md:hidden bg-primary text-white text-center rounded-lg px-6 py-2 text-base font-semibold hover:opacity-90 transition"
         >Download</a
       >
     </nav>
@@ -45,7 +49,7 @@
     </button>
     <a
       href="#download"
-      class="hidden md:block bg-primary text-white rounded-lg px-6 py-2 text-lg font-semibold shadow-xl shadow-primary/25"
+      class="hidden md:block bg-primary text-white rounded-lg px-6 py-2 text-lg font-semibold shadow-xl shadow-primary/25 hover:opacity-90 transition"
       >Download</a
     >
   </div>
