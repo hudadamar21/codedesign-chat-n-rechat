@@ -22,8 +22,8 @@
   ];
 </script>
 
-<section id="teknologi" class="grid grid-cols-2 gap-10">
-  <img class="h-full w-full scale-[1.2] mt-5" src="/images/teknologi.png" alt="teknologi" />
+<section id="teknologi" class="grid grid-cols-1 md:grid-cols-2 gap-10 px-3">
+  <img class="h-full w-2/3 md:w-full mx-auto md:scale-[1.2] mt-5" src="/images/teknologi.png" alt="teknologi" />
   <div class="">
     <SectionTitle
       badge="TEKNOLOGI YANG DIGUNAKAN"
@@ -37,8 +37,8 @@
           <img src={image} alt={title} />
         </div>
         <div>
-          <h3 class="text-lg font-medium mb-2 ">{title}</h3>
-          <p class="text-dark/60 leading-[26px]">{description}</p>
+          <h3 class="text-base md:text-lg font-medium mb-2 ">{title}</h3>
+          <p class="text-sm md:text-base text-dark/60 leading-[26px]">{description}</p>
         </div>
       </div>
       {/each}
