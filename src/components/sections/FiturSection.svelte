@@ -23,7 +23,7 @@
   ];
 </script>
 
-<section id="fitur" class="mt-32 border-b border-dark/5 pb-32 mb-32">
+<section id="fitur" class="mt-20 md:mt-32 border-b border-dark/5 pb-20 md:pb-32 mb-20 md:mb-32 px-3">
   <div class="text-center w-full md:w-1/2 mx-auto">
     <SectionTitle 
       badge="NGGAK HARUS SIH SEBENERNYA"
@@ -32,7 +32,7 @@
       adalah fitur-fitur WhatsApp.  "
     />
   </div>
-  <div class="grid grid-cols-3 gap-10 mt-32">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-16 md:mt-32">
     {#each fitur as { image, title, description }, i}
       <div class="flex flex-col justify-center items-center gap-3 text-center">
         <img src={image} alt={title} />
