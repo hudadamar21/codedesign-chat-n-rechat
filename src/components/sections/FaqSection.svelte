@@ -25,7 +25,7 @@
     },
     {
       question: "Gimana caranya supaya si Rizal mau bikin konten buat Array ID?",
-      answer: `,elaskan potensi positif dalam berbagi pengetahuan dan minat, Ceritakan tentang kesuksesan pembuat konten lain, Temukan topik yang menarik minatnya, Diskusikan keuntungan jangka panjang dari konsistensi dalam membuat konten, dan Tawarkan bantuan dan dukungan dalam proses pembuatan konten.`,
+      answer: `Jelaskan potensi positif dalam berbagi pengetahuan dan minat, Ceritakan tentang kesuksesan pembuat konten lain, Temukan topik yang menarik minatnya, Diskusikan keuntungan jangka panjang dari konsistensi dalam membuat konten, dan Tawarkan bantuan dan dukungan dalam proses pembuatan konten.`,
     },
     {
       question: "Pertanyaan di atas gabakal ada yang bisa jawab sih",
