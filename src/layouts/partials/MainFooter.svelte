@@ -1,5 +1,5 @@
 <footer class="main-container mt-20 md:mt-32">
-  <div class="bg-primary/5 py-16 px-3 md:p-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 rounded-t-2xl">
+  <div class="bg-primary/5 py-16 px-5 md:p-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 rounded-t-2xl">
     <div class="space-y-4 md:col-span-2">
       <div class="flex items-center gap-3">
         <img src="/logo.png" alt="">
@@ -9,8 +9,8 @@
         Sebenernya banyak banget aplikasi chatting yang lebih bagus dari ini, maka dari itu lebih baik pake yang lain aja deh ya daripada pake aplikasi yang ini.
       </p>
       <div class="text-xs md:text-sm text-dark/60 font-medium tracking-widest space-y-3">
-        <div>COPYRIGHT (C) 2021. </div>
-        <div>DESIGN BY NAUVAL</div>
+        <div>COPYRIGHT (C) 2021. DESIGN BY NAUVAL</div>
+        <div></div>
         <div>DEVELOP BY HUDA</div>
       </div>
     </div>
