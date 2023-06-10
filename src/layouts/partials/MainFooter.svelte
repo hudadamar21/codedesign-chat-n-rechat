@@ -28,14 +28,14 @@
       <h2 class="text-base md:text-lg font-medium mb-3 md:mb-4">Tetep Terhubung</h2>
       <p class="text-sm md:text-base text-dark/60">Lihat kami pansos di sosial media berikut:</p>
       <div class="flex items-center gap-5 mt-5">
-        <a href="#instagram" class="h-10 rounded-lg aspect-square flex items-center justify-center bg-dark/10">
-          <img class="h-4 md:h-8" src="/images/instagram.svg" alt="instagram">
+        <a href="#instagram" class="h-10 rounded-lg aspect-square flex items-center justify-center bg-dark/10 hover:opacity-80 transition">
+          <img class="h-4 md:h-5" src="/images/instagram.svg" alt="instagram">
         </a>
-        <a href="#facebook" class="h-10 rounded-lg aspect-square flex items-center justify-center bg-dark/10">
-          <img class="h-4 md:h-8" src="/images/facebook.svg" alt="facebook">
+        <a href="#facebook" class="h-10 rounded-lg aspect-square flex items-center justify-center bg-dark/10 hover:opacity-80 transition">
+          <img class="h-4 md:h-5" src="/images/facebook.svg" alt="facebook">
         </a>
-        <a href="#twitter" class="h-10 rounded-lg aspect-square flex items-center justify-center bg-dark/10">
-          <img class="h-4 md:h-8" src="/images/twitter.svg" alt="twitter">
+        <a href="#twitter" class="h-10 rounded-lg aspect-square flex items-center justify-center bg-dark/10 hover:opacity-80 transition">
+          <img class="h-4 md:h-5" src="/images/twitter.svg" alt="twitter">
         </a>
       </div>
     </div>
