@@ -22,7 +22,7 @@
   ];
 </script>
 
-<section id="teknologi" class="grid grid-cols-1 md:grid-cols-2 gap-10 px-3">
+<section id="teknologi" class="grid grid-cols-1 md:grid-cols-2 gap-10 px-5 md:px-0">
   <img class="h-full w-2/3 md:w-full mx-auto md:scale-[1.2] mt-5" src="/images/teknologi.png" alt="teknologi" />
   <div class="">
     <SectionTitle
